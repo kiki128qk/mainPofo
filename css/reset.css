@@ -21,4 +21,4 @@ input{-webkit-appearance: auto; border-radius:0;}
 /* input:focus, textarea:focus{background:#f8f8f8;} */
 
 /* Contents Wrap Style */
-.wrap{width:100%; height:auto; background: #CFCDCE; display:flex; justify-content: space-between; flex-direction: column;}
+.wrap{width:100%; height:auto; display:flex; justify-content: space-between; flex-direction: column;}
