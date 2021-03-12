@@ -18,11 +18,11 @@
 
 </head>
 <body>
+<script> 
+    AOS.init(); 
+</script>
     <div class="wrap">
         <header>
-        <script> 
-            AOS.init(); 
-        </script>   
             <div class="headerBoxs">
             <?php
                 include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/header.php';
@@ -72,7 +72,7 @@
                             Use Language:오아이스도 위하여 <br>
 아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다.  아름다우냐?</em>
                     </div>
-                    <a href="#"> <button Type="button">자세히 보기</button></a>
+                    <a href="#"><button Type="button">자세히 보기</button></a>
                 </div>
             </div>
                 
@@ -97,7 +97,7 @@
                             Use Language:오아이스도 위하여 <br>
 아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다.  아름다우냐?</em>
                     </div>
-                    <a href="#"> <button Type="button">자세히 보기</button></a>
+                    <a href="#"><button Type="button">자세히 보기</button></a>
                 </div>
             </div>
         </Section>
@@ -105,20 +105,30 @@
                 <div class="moreBoxs clear">
                     <div class="thinBoxG"></div>
                     <div class="moreTxtBox">
-                        <a href="#">
                             <b>More</b><br>
                             <em>view</em>
-                            <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+                            <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+                    </div>
+                    <div class="moreImg">
+                        <div class="overlay">
+                            
+                        </div>
+                        <a href="#">
+                            <img src="/mainpofo/img/img_01.jpg" alt="">
                         </a>
                     </div>
-                    <div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div>
+                    <div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div>
                     <div class="thinBoxY"></div>
                 </div>
-        
             <span class="moreborder"></span>
         </Section>
+        <Section class="Profile center">
+            <h3>ABOUT ME</h3>
+            <div class="propic">
+                
+            </div>
 
-        
+        </Section>
     </div>
 
     <!-- jquery link -->
