@@ -19,7 +19,7 @@ header{width: 100%; height: 450px; background: #f6e25d;}
 /* origin contents section style */
 
 
-.contents{padding: 100px 0; }
+.contents{padding: 50px 0; }
 
 .contents .content{width: 100%; height: auto; display:flex; margin: 0 auto;position: relative;}
 .content .designBoxL{width: 45%; height: 120px; background: #f6e25d; position: absolute; margin-top: 300px;}
@@ -58,12 +58,15 @@ header{width: 100%; height: 450px; background: #f6e25d;}
 .moretap {width: 100%;
     display: flex; position: relative;}
 
-.moretap .moreborder{width:70%; height: 250px; border: 2px solid #f6e25d; margin: 0 auto; position: absolute; justify-content: center;align-items: center}
+.moretap .moreborder{width:70%; height: 250px; border: 2px solid #f6e25d; margin: 0 auto; position: absolute; justify-content: center;align-items: center; top:15px; left: 15%; z-index: -10;}
 
-.moretap  .moreBoxs{width: 70%; height: 100%; margin: 0 auto; display: flex; justify-content: center;align-items: center; position: relative;}
-.moreBoxs .moreTxtBox,.moreBoxs .moreImg{width: 20%; height:180px; display: inline-block; overflow: hidden;}
+.moretap  .moreBoxs{width: 70%; height: 100%; margin: 0 auto; display: flex; justify-content: center; position: relative;padding: 50px 0; }
+.moreBoxs .moreImg{width: 20%; height:180px; display: inline-block; overflow: hidden;}
 .moreImg img{width: 100%;}
-.moreBoxs .moreTxtBox b{font-style: normal; font-size: 30px; font-family: 'Do Hyeon', sans-serif; line-height: 15px;}
+.moreBoxs .moreTxtBox{width: 20%; height:180px; display: inline-block;}
+.moreBoxs .moreTxtBox b{font-style: normal; font-size: 80px; font-family: 'Do Hyeon', sans-serif; line-height: 60px;}
+.moreBoxs .moreTxtBox em{font-style: normal; font-size: 30px;line-height: 15px;}
+.moreBoxs .moreTxtBox i{font-size: 18px;}
 
-.moretap .thinBoxG{width: 31%; height: 40px; background:#999a9c; position: absolute; top: 0px; right: 90%; line-height: 3px;}
-.moretap .thinBoxY{width: 31%; height: 40px; background: #f6e25d; position: absolute; left:90%; bottom: 0;}
+.moretap .thinBoxG{width: 31%; height: 40px; background:#999a9c; position: absolute; top: 50px; right: 90%; line-height: 3px;}
+.moretap .thinBoxY{width: 31%; height: 40px; background: #f6e25d; position: absolute; left:90%; bottom: 50px;}

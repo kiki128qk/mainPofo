@@ -106,8 +106,9 @@
                     <div class="thinBoxG"></div>
                     <div class="moreTxtBox">
                         <a href="#">
-                            <b>More<br>view</b><br>
-                            <i>view</i>
+                            <b>More</b><br>
+                            <em>view</em>
+                            <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
                         </a>
                     </div>
                     <div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div>
@@ -115,7 +116,6 @@
                 </div>
         
             <span class="moreborder"></span>
-
         </Section>
 
         
