@@ -25,11 +25,11 @@
         <header>
             <div class="headerBoxs">
             <?php
-                include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/header.php';
+                include $_SERVER['DOCUMENT_ROOT'].'/mainPofo/include/header.php';
             ?>
             </div>
         </header>
-        <Section class="contents">  
+        <section class="contents">  
             <div class="content frestCon">
                 <p class="designBoxL"></p>
                 <p class="designBoxR"></p>
@@ -39,7 +39,7 @@
                             <span></span>
                     </div>
                     <div class="imgpart" data-aos="zoom-in">
-                        <a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a>
+                        <a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a>
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
                         <span></span>
                     </div>
                     <div class="imgpart" data-aos="zoom-in">
-                        <a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a>
+                        <a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a>
                     </div>
                 </div>
 
@@ -85,7 +85,7 @@
                         <span></span>
                     </div>
                     <div class="imgpart" data-aos="zoom-in">
-                        <a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a>
+                        <a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a>
                     </div>
                 </div>
 
@@ -100,8 +100,8 @@
                     <a href="#"><button Type="button">자세히 보기</button></a>
                 </div>
             </div>
-        </Section>
-        <Section class="moretap">
+        </section>
+        <section class="moreview">
                 <div class="moreBoxs clear">
                     <div class="thinBoxG"></div>
                     <div class="moreTxtBox">
@@ -109,26 +109,131 @@
                             <em>view</em>
                             <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
                     </div>
-                    <div class="moreImg">
-                        <div class="overlay">
-                            
-                        </div>
-                        <a href="#">
-                            <img src="/mainpofo/img/img_01.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div><div class="moreImg"><a href="#"><img src="/mainpofo/img/img_01.jpg" alt=""></a></div>
+                    <ul class="moreImg">
+                        <li><a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a> </li>
+                        <li><a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a> </li>
+                        <li><a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a> </li>
+                        <li><a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a> </li>
+                        <li><a href="#"><img src="/mainPofo/img/img_01.jpg" alt=""></a> </li>
+                    </ul>
                     <div class="thinBoxY"></div>
                 </div>
             <span class="moreborder"></span>
-        </Section>
-        <Section class="Profile center">
+        </section>
+        <section class="ProfileBox">
             <h3>ABOUT ME</h3>
-            <div class="propic">
-                
+            <div class="Profile">
+                <div class="propic">
+                    <div class="picto"> 
+                        <div class="hand">
+                        <img src="/mainPofo/img/hand.svg" alt="">
+                        </div>
+                        <b>이게 뭐람</b>
+                    </div>
+                    <div class="picto"> 
+                        <div class="hand">
+                        <img src="/mainPofo/img/hand.svg" alt="">
+                        </div>
+                        <b>이게 뭐람</b>
+                    </div>
+                    <div class="picto"> 
+                        <div class="hand">
+                        <img src="/mainPofo/img/hand.svg" alt="">
+                        </div>
+                        <b>이게 뭐람</b>
+                    </div>
+                </div>
+                <div class="pohto">
+                        <img src="/mainPofo/img/sample.jpg" alt="">
+                </div>
             </div>
+            <div class="ProfileTit">
+                <em>아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. </em>
+            </div>
+            <button Type="button" class="proiCon">
+                    <i class="fas fa-angle-down"></i>
+            </button>
+        </section>
+        <section class="profilemoer">
+        <div class="proBox">
+                
+                <h3>Skill</h3>
+                <div class="proSkill">
+                    <div class="coding">
+                        <div class="vscode html">
+                            <div class="skillIcon">
+                                <img src="/mainPofo/img/html.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div>                       
+                        </div>
+                        <div class="vscode css">
+                            <div class="skillIcon">
+                                <img src="/mainPofo/img/css.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div> 
+                        </div>
+                        <div class="vscode js">
+                            <div class="skillIcon">
+                                <img src="/mainPofo/img/js.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="ect">
+                        <div class="desgin">
+                            <div class="skillIcon">
+                                <img src="/mainPofo/img/css.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div> 
+                        </div>
+                        <div class="desgin">
+                            <div class="skillIcon">
+                                <img src="/mainPofo/img/css.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div> 
 
-        </Section>
+                        </div>
+                        <div class="desgin">
+                        <div class="skillIcon">
+                                <img src="/mainPofo/img/css.svg" alt="">
+                            </div>
+                            <div class="skFigure">
+                                <div class="skillBar">
+                                    <span class="barIn"></span>
+                                </div>
+                                <p>70 %</p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </div>
 
     <!-- jquery link -->
