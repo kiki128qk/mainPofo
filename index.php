@@ -143,100 +143,123 @@
                         <b>이게 뭐람</b>
                     </div>
                 </div>
-                <div class="pohto">
+                <!-- <div class="pohto">
                         <img src="/mainPofo/img/sample.jpg" alt="">
-                </div>
+                </div> -->
             </div>
             <div class="ProfileTit">
-                <em>아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. </em>
+                <em>내가 만든 작은 좋은 영향력이 누구에게 위로가 되기를 바라면서</em>
             </div>
-            <button Type="button" class="proiCon">
+            <div class="Promore">
+                <button type="button" id="morebutton">
                     <i class="fas fa-angle-down"></i>
-            </button>
-        </section>
-        <section class="profilemoer">
-        <div class="proBox">
-                
-                <h3>Skill</h3>
-                <div class="proSkill">
-                    <div class="coding">
-                        <div class="vscode html">
-                            <div class="skillIcon">
-                                <img src="/mainPofo/img/html.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
-                                </div>
-                                <p>70 %</p>
-                            </div>                       
-                        </div>
-                        <div class="vscode css">
-                            <div class="skillIcon">
-                                <img src="/mainPofo/img/css.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
-                                </div>
-                                <p>70 %</p>
-                            </div> 
-                        </div>
-                        <div class="vscode js">
-                            <div class="skillIcon">
-                                <img src="/mainPofo/img/js.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
-                                </div>
-                                <p>70 %</p>
-                            </div> 
-                        </div>
+                </button>
+                <div class="PromoreCon">
+                    <div class="proiCon">
+                        <div class="tabbutton">
+                        <button>Skill</button>
+                        <button>Basic</button>
                     </div>
-                    <div class="ect">
-                        <div class="desgin">
-                            <div class="skillIcon">
-                                <img src="/mainPofo/img/css.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
+                    <div class="tabcons">
+                        <div class="tabcon skillTab">
+                            <h3>Skill</h3>
+                            <div class="skillCon" >
+                                <div class="coding">
+                                        <div class="vscode html">
+                                            <div class="skillIcon">
+                                                <img src="/mainPofo/img/html.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
+                                        </div>
+                                        <div class="vscode css">
+                                            <div class="skillIcon">
+                                                <img src="/mainPofo/img/css.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
+                                        </div>
+                                        <div class="vscode js">
+                                            <div class="skillIcon">
+                                                <img src="/mainPofo/img/js.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
+                                        </div>
                                 </div>
-                                <p>70 %</p>
-                            </div> 
-                        </div>
-                        <div class="desgin">
-                            <div class="skillIcon">
-                                <img src="/mainPofo/img/css.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
-                                </div>
-                                <p>70 %</p>
-                            </div> 
+                                <div class="ect">
+                                        <div class="desgin">
+                                            <div class="skillIcon">
+                                                <img src="/mainPofo/img/css.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
+                                        </div>
+                                        <div class="desgin">
+                                            <div class="skillIcon">
+                                                <img src="/mainPofo/img/css.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
 
-                        </div>
-                        <div class="desgin">
-                        <div class="skillIcon">
-                                <img src="/mainPofo/img/css.svg" alt="">
-                            </div>
-                            <div class="skFigure">
-                                <div class="skillBar">
-                                    <span class="barIn"></span>
+                                        </div>
+                                        <div class="desgin">
+                                        <div class="skillIcon">
+                                                <img src="/mainPofo/img/css.svg" alt="">
+                                            </div>
+                                            <div class="skFigure">
+                                                <div class="skillBar">
+                                                    <span class="barIn"></span>
+                                                </div>
+                                                <p>70 %</p>
+                                            </div> 
+                                        </div>
                                 </div>
-                                <p>70 %</p>
-                            </div> 
+                            </div>
+                        </div>
+                        <div class="tabcon basicTab">
+                                <h3>Basic Data</h3>
+                                <div class="basicCons">
+                                    <div class="Certificate">
+                                        <p>경력</p>
+                                        <em>인터파크 1년 <br>쿠팡 6개월</em>
+                                    </div>
+                                    <span class="line"></span>
+                                    <div class="Career">
+                                        <p>자격증</p>
+                                        <em>엑셀</em>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+
     </div>
 
     <!-- jquery link -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src ="/mainPofo/js/tab.js"></script>
 </body>
 </html>
