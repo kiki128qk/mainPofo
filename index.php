@@ -34,12 +34,19 @@
         <p class="designBoxL"></p>
         <p class="designBoxR"></p>
         <div class="imgBox">
-          <div class="imgtitle">
-            <h3 class="title">Re Make</h3>
-            <span></span>
-          </div>
-          <div class="imgpart" data-aos="zoom-in">
-            <img src="/mainPofo/img/img_01.jpg" alt="">
+          <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">New Make</h3>
+                <span></span>
+              </div>
+            
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
+              </div>
+              <img src="/mainpofo/img/horizons.png    " alt="" class="bagImg">
+              <img class="display" src="/mainPofo/img/display.png" alt="">
+            </div>
           </div>
         </div>
 
@@ -64,7 +71,7 @@
             <span></span>
           </div>
           <div class="imgpart" data-aos="zoom-in">
-            <img src="/mainPofo/img/img_01.jpg" alt="">
+            <!-- <img src="/mainPofo/img/img_01.jpg" alt=""> -->
           </div>
         </div>
 
@@ -86,12 +93,18 @@
         <p class="designBoxL"></p>
         <p class="designBoxR "></p>
         <div class="imgBox">
-          <div class="imgtitle">
-            <h3 class="title">Re Make</h3>
-            <span></span>
-          </div>
-          <div class="imgpart" data-aos="zoom-in">
-            <img src="/mainPofo/img/img_01.jpg" alt="">
+          <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">Re Make</h3>
+                <span></span>
+              </div>
+            
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
+              </div>
+              <img class="display" src="/mainPofo/img/display.png" alt="">
+            </div>
           </div>
         </div>
 
@@ -167,8 +180,8 @@
       <div class="PromoreCon">
         <div class="proiCon">
           <div class="tabbutton">
-            <button>Skill</button>
-            <button>Career</button>
+            <button type="button">Skill</button>
+            <button type="button">Career</button>
           </div>
           <div class="tabcons">
             <div class="tabcon skillTab">
