@@ -39,8 +39,8 @@ nav .gotop:hover { background: #f6e25d; }
 .content .designBoxL { box-shadow: 5px 10px 10px -1px; } 
 .content .imgBox { width: 45%; height: 450px; position: relative; display: flex; } 
 
-.imgBox .imgCon{ width: 480px; position: relative; left: 30%;}
-/* .content .imgBox .imgtitle { display: flex; position: absolute; transform: rotate(90deg); top: 200px; width: 400px; right: 250px; font-family: "Lucida Sans", sans-serif; }  */
+.imgBox .imgCon{ width: 480px; position: relative; left: 10%;}
+
 .content .imgBox .imgtitle { display: flex; position: absolute; transform: rotate(90deg);  top: 190px;  left: -57px; font-family: "Lucida Sans", sans-serif;} 
 .content .imgBox .imgtitle .title { font-family: "Noto Sans KR"; font-size: 25px;margin: 11px 5px 0px 34px; } 
 .content .imgBox .imgtitle span { width: 200px; border-bottom: 2px solid; margin: 5px; }  
@@ -60,11 +60,15 @@ nav .gotop:hover { background: #f6e25d; }
 
 .secondCon .designBoxL { background: #999a9c; right: 0; } 
 .secondCon .imgBox { order: 2; } 
+.secondCon .imgBox .imgCon{width: 480px;
+  position: relative; right: 20%; left: 0;}
 .secondCon .imgBox .imgtitle { left: 250px; } 
-.secondCon .imgBox .imgtitle span { border-top: 2px solid; border-bottom: none; } 
 .secondCon .imgBox .imgpart img { left: 75px; } 
 .secondCon .txtBox .txtcon { font-size: 20px; text-align: end; margin: 0 0 0 50%; } 
 .secondCon .txtBox button:hover {background: #f6e25d; } 
+.secondCon .imgBox .imgtitle { display: flex; position: absolute; transform: rotate(90deg);  top: 190px;  left: -57px; font-family: "Lucida Sans", sans-serif;} 
+.secondCon .imgBox .imgtitle .title { font-family: "Noto Sans KR"; font-size: 25px;margin: 11px 5px 0px 34px; } 
+.secondCon .imgBox .imgtitle span { width: 200px; border-bottom: 2px solid; margin: 5px; }  
 
 /* third Content style */
 .thirdCon .designBoxR { width: 40%; height: 400px; top: 40px; background: #999a9c4b; left: 0; z-index: -20; } 

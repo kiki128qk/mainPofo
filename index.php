@@ -40,11 +40,9 @@
                 <h3 class="title">New Make</h3>
                 <span></span>
               </div>
-            
               <div class="veiwpoint">
                 <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
               </div>
-              <img src="/mainpofo/img/horizons.png    " alt="" class="bagImg">
               <img class="display" src="/mainPofo/img/display.png" alt="">
             </div>
           </div>
@@ -66,12 +64,17 @@
       <div class="content secondCon">
         <p class="designBoxL"></p>
         <div class="imgBox">
-          <div class="imgtitle">
-            <h3 class="title">Re Make</h3>
-            <span></span>
-          </div>
-          <div class="imgpart" data-aos="zoom-in">
-            <!-- <img src="/mainPofo/img/img_01.jpg" alt=""> -->
+        <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">New Make</h3>
+                <span></span>
+              </div>
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/movi.png" alt="">
+              </div>
+              <img class="display" src="/mainPofo/img/display.png" alt="">
+            </div>
           </div>
         </div>
 
@@ -294,6 +297,7 @@
   <script src="/mainPofo/js/floatmenu.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
   <script src="/mainPofo/js/slider.js"></script>
+   <script src="/mainPofo/js/ProgressBar.js"></script>
   <script>
   AOS.init();
   </script>
