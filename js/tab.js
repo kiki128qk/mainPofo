@@ -9,4 +9,5 @@ $(document).ready(function(){
     });
 
     $(".tabbutton>button").eq(0).trigger("click");
+    
 });

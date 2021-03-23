@@ -13,7 +13,7 @@ header { width: 100%; height: 450px; background: #f6e25d; }
 .headerBoxs .mainBoxs .boxR .pointtit { width: 120px; height: 164px; font-size: 208px; position: absolute; left: 0; bottom: 40px; } 
 
 
-nav { position: relative; width: 100%; height: 900px; } 
+nav { position: relative; } 
 /* 
 #floatMenu { position: absolute; width: 5%; height: 120px; left: 30px; top: 60px; text-align: center; z-index: 999; } */
 
@@ -28,6 +28,34 @@ nav .gotop:hover { background: #f6e25d; }
 .whiteBoxs .gBox { width: 35%; height: 120px; top: 0; left: 0; background: rgba(107, 107, 107, 0.5); } 
 .whiteBoxs .wBoxT { width: 20%; height: 80px; top: 290px; right: 30%; position: absolute; background: rgba(250, 250, 250, 0.5); } 
 .whiteBoxs .wBoxB { width: 25%; height: 80px; position: absolute; background: rgba(250, 250, 250, 0.5); top: 370px; right: 25%; } 
+
+.main_Pla{display: flex;margin: 50px auto;}
+.info_txt b p{background: #f6e25d; padding:0 5px; border-radius: 10px; margin:0 5px ;}
+em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
+
+.mian_info,
+.plann{width: 50%;}
+.pla_con,
+.info_con{width: 615px; height: 200px; justify-content: center; margin: 70px auto 0;;}
+.pla_txt,
+.info_txt{margin: 0 10%;}
+.pla_txt h3,
+.info_txt h3{font-size: 26px;}
+.pla_txt i,
+.info_txt i{font-style: normal; display: block; font-size: 18px;}
+.pla_txt b,
+.info_txt em{display: flex; font-size: 18px; font-style: normal;}
+
+.pla_buttons,
+.info_buttons{margin: 0 auto; text-align: center;}
+.pla_buttons a button,
+.info_buttons a button{width: 120px; height: 50px;  margin:50px 5px 0 0; font-size: 18px;  color: #444; font-weight: 600; background: #eee; }
+.pla_buttons a button:hover,  
+.info_buttons a button:hover{background: #f6e25d; }
+
+.hide_button
+
+
 /* --------------------- */
 /* contents section style */
 
@@ -45,16 +73,19 @@ nav .gotop:hover { background: #f6e25d; }
 .content .imgBox .imgtitle .title { font-family: "Noto Sans KR"; font-size: 25px;margin: 11px 5px 0px 34px; } 
 .content .imgBox .imgtitle span { width: 200px; border-bottom: 2px solid; margin: 5px; }  
 .content .imgBox .imgpart .display { width: 500px; height: 400px; position: absolute; left: 140px;} 
-.content .imgBox .imgpart .veiwpoint {width: 489px; height: 290px; position: absolute;left: 145px;top: 10px;overflow: hidden;}
+.content .imgBox .imgpart .veiwpoint {width: 489px; height: 290px; position: absolute;left: 145px; top: 10px;overflow: hidden;}
 .content .imgBox .imgpart .bagImg{overflow:hidden; width: 100%; position: absolute; right: 50%;} 
 
 .content .imgBox .imgpart .mainImg{width: 500px;}
+.content:nth-child(3) .imgBox .imgpart .mainImg{width: 500px; height: 100%;}
 .contents .txtBox { width: 55%; padding: 50px; } 
-.content .txtBox .txtcon { width: 50%; font-size: 20px; } 
+.content .txtBox .txtcon { width: 50%; font-size: 20px;}
+.content .txtBox .txtcon i{font-style: normal;}
 .content .txtBox .txtcon h3 { font-size: 30px; line-height: 2; } 
 .content .txtBox .txtBoxButton { width: 70%; float: right; } 
 .content .txtBox button { width: 120px; height: 50px; margin: 50px 5px; font-size: 18px; color: #444e; font-weight: 600; } 
-.content .txtBox .txtcon em { font-style: normal; } 
+.content .txtBox .txtcon em { font-style: normal;display: flex;  font-weight: 600;}
+  
 .content .txtBox button:hover { background: #f6e25d; } 
 /* Second content style */
 
@@ -132,11 +163,15 @@ nav .gotop:hover { background: #f6e25d; }
 .vscode,
 .desgin { width: 100%; height: 80px; display: flex; align-items: center; margin: 20px auto; } 
 .skillIcon { width: 12%; height: auto; margin: 0 auto; } 
-.skillIcon img { width: 100%; } 
+.skillIcon img { width: 90%; } 
 
 .skFigure { width: 80%; } 
 .skillBar { padding: 3px 0; border: 1px solid #ccc; border-radius: 10px; background: #eee; margin: 15px auto; } 
-.skillBar .barIn { display: block; width: 70%; height: 15px; background: #f6e25d; border-radius: 10px; } 
+.skillBar .barIn { display: block;  height: 15px; background: #f6e25d; border-radius: 10px; }
+.skillBar .cssbar,.skillBar .xlsbar, .skillBar .htmlbar{width: 70%;}
+.libar{width: 80%;}
+.phbar{width: 90%;}
+.jsbar{width: 60%;}
 .skFigure > p { font-size: 20px; font-weight: 600; } 
 
 /* Basic Data style */

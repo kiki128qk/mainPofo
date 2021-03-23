@@ -26,7 +26,7 @@
     </div>
 </div>
 <nav>
-    <ul "floatMenu" class="floatMenu">
+    <ul class="floatMenu">
         <li><a href="#content">Content</a></li>
         <span class="deco">ㆍ</span>
         <li><a href="#ABOUT">ABOUT ME</a></li>

@@ -29,6 +29,40 @@
         ?>
       </div>
     </header>
+    <section class="main_Pla">
+      <div class="mian_info">
+        <div class="info_con">
+          <div class="info_txt">
+            <h3>Pantone</h3>
+            <i>올해의 인제상을 팬톤 2021년 컬러에 투영한 컨셉 제작 탑다운 형식
+            </i>
+            <em>Use Language: <p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em>
+          </div>
+          <div class="info_buttons">
+            
+           <button type="button">자세히 보기</button>
+          
+           <a href="#"><button type="button">Github</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="plann">
+        <div class="pla_con" >
+          <div class="pla_txt">
+            <h3>UX/UI 기획</h3>
+            <i>Nemesis 가상의 사업체의 사이트 UX/UI 기획 PROJECT</i>
+            <b>- 분석, 설계, 구현으로 구성된 기획서</b>
+          </div>
+          <div class="pla_buttons">
+            <button type="button">자세히 보기</button> <div class="hide_button">
+           <button type="button">기획서</button>
+           <button type="button">페이지 가기</button>
+           </div>
+            <a><button type="button">Github</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="contents"id="content">
       <div class="content frestCon">
         <p class="designBoxL"></p>
@@ -41,7 +75,7 @@
                 <span></span>
               </div>
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
+                <img class="mainImg" src="/mainPofo/img/horizons.png" alt="">
               </div>
               <img class="display" src="/mainPofo/img/display.png" alt="">
             </div>
@@ -50,14 +84,17 @@
 
         <div class="txtBox">
           <div class="txtcon" data-aos="fade-right">
-            <h3>01</h3>
-            <em>Title: . 인생을 관현악이며,<br>
-              Use Language:오아이스도 위하여 <br>
-              아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. 아름다우냐?</em>
+            <h3>Title: horizons </h3>
+              <em> Use Language: <p>php</p> , <p>css</p> , <p>js</p> , <p>jquery</p> , <p>mysql</p><br></em><br>
+              <i> 프론트 앤드 개발 부터 서버 사이트 통합한 포괄적 기능의 사이트<br>
+              데이터 입력 및 출력, 검색 전반적인 백앤드 기능 구현<br>
+              어드민 기능으로 입력된 데이터의 검색, 수정 등 전반적인 관리</i>
+
+              
           </div>
           <div class="txtBoxButton">
             <a href="#"> <button Type="button">자세히 보기</button></a>
-            <a href="#"><button Type="button">Github</button></a>
+            <a href="https://github.com/kiki128qk/gold"><button Type="button">Github</button></a>
           </div>
         </div>
       </div>
@@ -71,7 +108,7 @@
                 <span></span>
               </div>
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/movi.png" alt="">
+                <img class="mainImg" src="/mainPofo/img/movi.png" alt="">
               </div>
               <img class="display" src="/mainPofo/img/display.png" alt="">
             </div>
@@ -80,7 +117,6 @@
 
         <div class="txtBox">
           <div class="txtcon" data-aos="fade-right">
-            <h3>02</h3>
             <em>Title: . 인생을 관현악이며,<br>
               Use Language:오아이스도 위하여 <br>
               아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. 아름다우냐?</em>
@@ -99,12 +135,12 @@
           <div class="imgCon">
             <div class="imgpart" data-aos="zoom-in">
               <div class="imgtitle">
-                <h3 class="title">Re Make</h3>
+                <h3 class="title">New Make</h3>
                 <span></span>
               </div>
             
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
+                <img class="mainImg" src="/mainPofo/img/myschedule.png" alt="">
               </div>
               <img class="display" src="/mainPofo/img/display.png" alt="">
             </div>
@@ -113,13 +149,11 @@
 
         <div class="txtBox">
           <div class="txtcon" data-aos="fade-right">
-            <h3>03</h3>
-            <em>Title: . 인생을 관현악이며,<br>
-              Use Language:오아이스도 위하여 <br>
-              아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. 아름다우냐?</em>
+            <h3>Title: my schedule</h3>
+            <em>Use Language:<p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em>
           </div>
           <div class="txtBoxButton">
-            <a href="#"> <button Type="button">자세히 보기</button></a>
+            <a href="http://kiki128qk.dothome.co.kr/myschedule/"> <button Type="button">자세히 보기</button></a>
             <a href="#"><button Type="button">Github</button></a>
           </div>
         </div>
@@ -161,7 +195,7 @@
           </div>
           <div class="picto">
             <div class="hand">
-              <img src="/mainPofo/img/hand.svg" alt="">
+              <img src="/mainPofo/img/Communication.svg" alt="">
             </div>
             <b>이게 뭐람</b>
           </div>
@@ -172,9 +206,6 @@
             <b>이게 뭐람</b>
           </div>
         </div>
-        <!-- <div class="pohto">
-                        <img src="/mainPofo/img/sample.jpg" alt="">
-                </div> -->
       </div>
       <div class="ProfileTit">
         <em>내가 만든 작은 좋은 영향력이 누구에게 위로가 되기를 바라면서</em>
@@ -197,7 +228,7 @@
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn htmlbar"></span>
                       </div>
                       <p>70 %</p>
                     </div>
@@ -208,7 +239,7 @@
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn cssbar"></span>
                       </div>
                       <p>70 %</p>
                     </div>
@@ -219,43 +250,43 @@
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn jsbar"></span>
                       </div>
-                      <p>70 %</p>
+                      <p>60 %</p>
                     </div>
                   </div>
                 </div>
                 <div class="ect">
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/css.svg" alt="">
+                      <img src="/mainPofo/img/ph.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn phbar"></span>
                       </div>
-                      <p>70 %</p>
+                      <p>90 %</p>
                     </div>
                   </div>
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/css.svg" alt="">
+                      <img src="/mainPofo/img/li.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn libar"></span>
                       </div>
-                      <p>70 %</p>
+                      <p>80 %</p>
                     </div>
 
                   </div>
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/css.svg" alt="">
+                      <img src="/mainPofo/img/xls.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
-                        <span class="barIn"></span>
+                        <span class="barIn xlsbar"></span>
                       </div>
                       <p>70 %</p>
                     </div>
