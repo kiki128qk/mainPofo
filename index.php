@@ -10,11 +10,11 @@
   <!-- fontawesome link -->
   <script src="https://kit.fontawesome.com/9e31582c84.js" crossorigin="anonymous"></script>
   <!-- Plugin Aos link -->
-  <link rel="stylesheet" href="/mainPofo/css/reset.css" />
+  <link rel="stylesheet" href="/mainpofo/css/reset.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- style css link -->
 
-  <link rel="stylesheet" href="/mainPofo/css/style.css" />
+  <link rel="stylesheet" href="/mainpofo/css/style.css" />
 
 </head>
 
@@ -25,24 +25,22 @@
 
       <div class="headerBoxs">
         <?php
-                include $_SERVER['DOCUMENT_ROOT'].'/mainPofo/include/header.php';
+          include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/header.php';
         ?>
       </div>
     </header>
-    <section class="main_Pla">
+    <section class="main_Pla" id="content">
       <div class="mian_info">
         <div class="info_con">
           <div class="info_txt">
             <h3>Pantone</h3>
-            <i>올해의 인제상을 팬톤 2021년 컬러에 투영한 컨셉 제작 탑다운 형식
+            <i>올해의 인재상을 팬톤 2021년 컬러에 투영한 컨셉 제작 탑다운 형식 페이지
             </i>
             <em>Use Language: <p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em>
           </div>
           <div class="info_buttons">
-            
-           <button type="button">자세히 보기</button>
-          
-           <a href="#"><button type="button">Github</button></a>
+            <a href="#"><button type="button">자세히 보기</button></a>
+            <a href="#"><button type="button">Github</button></a>
           </div>
         </div>
       </div>
@@ -52,18 +50,16 @@
             <h3>UX/UI 기획</h3>
             <i>Nemesis 가상의 사업체의 사이트 UX/UI 기획 PROJECT</i>
             <b>- 분석, 설계, 구현으로 구성된 기획서</b>
+            <em> Use Language: <p>php</p> , <p>css</p> , <p>js</p> , <p>jquery</p> , <p>mysql</p><br></em><br>
           </div>
-          <div class="pla_buttons">
-            <button type="button">자세히 보기</button> <div class="hide_button">
-           <button type="button">기획서</button>
-           <button type="button">페이지 가기</button>
-           </div>
-            <a><button type="button">Github</button></a>
-          </div>
+
+          <?php
+          include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/include.php';
+        ?>
         </div>
       </div>
     </section>
-    <section class="contents"id="content">
+    <section class="contents">
       <div class="content frestCon">
         <p class="designBoxL"></p>
         <p class="designBoxR"></p>
@@ -75,9 +71,9 @@
                 <span></span>
               </div>
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainPofo/img/horizons.png" alt="">
+                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
               </div>
-              <img class="display" src="/mainPofo/img/display.png" alt="">
+              <img class="display" src="/mainpofo/img/display.png" alt="">
             </div>
           </div>
         </div>
@@ -92,10 +88,9 @@
 
               
           </div>
-          <div class="txtBoxButton">
-            <a href="#"> <button Type="button">자세히 보기</button></a>
-            <a href="https://github.com/kiki128qk/gold"><button Type="button">Github</button></a>
-          </div>
+          <?php
+          include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/include.php';
+        ?>
         </div>
       </div>
       <div class="content secondCon">
@@ -108,9 +103,9 @@
                 <span></span>
               </div>
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainPofo/img/movi.png" alt="">
+                <img class="mainImg" src="/mainpofo/img/movi.png" alt="">
               </div>
-              <img class="display" src="/mainPofo/img/display.png" alt="">
+              <img class="display" src="/mainpofo/img/display.png" alt="">
             </div>
           </div>
         </div>
@@ -140,9 +135,9 @@
               </div>
             
               <div class="veiwpoint">
-                <img class="mainImg" src="/mainPofo/img/myschedule.png" alt="">
+                <img class="mainImg" src="/mainpofo/img/myschedule.png" alt="">
               </div>
-              <img class="display" src="/mainPofo/img/display.png" alt="">
+              <img class="display" src="/mainpofo/img/display.png" alt="">
             </div>
           </div>
         </div>
@@ -169,14 +164,14 @@
         </div>
         <div class="slider-box">
           <ul class="moreImg" id="more-img">
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
-            <li><img src="/mainPofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
           </ul>
         </div>
         <div class="thinBoxY"></div>
@@ -189,19 +184,19 @@
         <div class="propic">
           <div class="picto">
             <div class="hand">
-              <img src="/mainPofo/img/hand.svg" alt="">
+              <img src="/mainpofo/img/hand.svg" alt="">
             </div>
             <b>이게 뭐람</b>
           </div>
           <div class="picto">
             <div class="hand">
-              <img src="/mainPofo/img/Communication.svg" alt="">
+              <img src="/mainpofo/img/Communication.svg" alt="">
             </div>
             <b>이게 뭐람</b>
           </div>
           <div class="picto">
             <div class="hand">
-              <img src="/mainPofo/img/hand.svg" alt="">
+              <img src="/mainpofo/img/hand.svg" alt="">
             </div>
             <b>이게 뭐람</b>
           </div>
@@ -224,7 +219,7 @@
                 <div class="coding">
                   <div class="vscode html">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/html.svg" alt="">
+                      <img src="/mainpofo/img/html.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -235,7 +230,7 @@
                   </div>
                   <div class="vscode css">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/css.svg" alt="">
+                      <img src="/mainpofo/img/css.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -246,7 +241,7 @@
                   </div>
                   <div class="vscode js">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/js.svg" alt="">
+                      <img src="/mainpofo/img/js.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -259,7 +254,7 @@
                 <div class="ect">
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/ph.svg" alt="">
+                      <img src="/mainpofo/img/ph.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -270,7 +265,7 @@
                   </div>
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/li.svg" alt="">
+                      <img src="/mainpofo/img/li.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -282,7 +277,7 @@
                   </div>
                   <div class="desgin">
                     <div class="skillIcon">
-                      <img src="/mainPofo/img/xls.svg" alt="">
+                      <img src="/mainpofo/img/xls.svg" alt="">
                     </div>
                     <div class="skFigure">
                       <div class="skillBar">
@@ -323,12 +318,12 @@
 
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="/mainPofo/js/tab.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="/mainPofo/js/floatmenu.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
-  <script src="/mainPofo/js/slider.js"></script>
-   <script src="/mainPofo/js/ProgressBar.js"></script>
+  <script src="/mainpofo/js/slider.js"></script>
+  <script src="/mainpofo/js/tab_show.js"></script>
+  <script src="/mainpofo/js/scrollnav.js"></script> 
+
   <script>
   AOS.init();
   </script>

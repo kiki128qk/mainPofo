@@ -1,4 +1,5 @@
                
+
 <div class="whiteBoxs">
     <p class="gBox"></p>   
     <!-- <p class="wBoxT"></p>
@@ -28,12 +29,11 @@
 <nav>
     <ul class="floatMenu">
         <li><a href="#content">Content</a></li>
-        <span class="deco">ㆍ</span>
-        <li><a href="#ABOUT">ABOUT ME</a></li>
-        <span class="deco">ㆍ</span>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#ABOUT">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
 
     </ul>
 
     <a href="#" class="gotop"> TOP </a>
 </nav>
+

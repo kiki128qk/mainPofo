@@ -13,14 +13,13 @@ header { width: 100%; height: 450px; background: #f6e25d; }
 .headerBoxs .mainBoxs .boxR .pointtit { width: 120px; height: 164px; font-size: 208px; position: absolute; left: 0; bottom: 40px; } 
 
 
-nav { position: relative; } 
-/* 
-#floatMenu { position: absolute; width: 5%; height: 120px; left: 30px; top: 60px; text-align: center; z-index: 999; } */
+nav {width: 100%; height: auto;background: #eee;} 
 
-.floatMenu { position: fixed; width: 5%; height: 120px; left: 30px; top: 50%; text-align: center; z-index: 999; } 
 
-nav .floatMenu li { width: 100px; height: 30px; line-height: 2; background: #eee; border-radius: 5px; } 
-nav .floatMenu li:hover { width: 120px; height: auto; background: #f6e25d; color: #444; font-size: 20px; } 
+.floatMenu {width: 60%; height: 60px; display: flex; margin: 0 auto; } 
+
+nav .floatMenu li { width: 100px; height: 60px; line-height: 3; font-size: 20px; text-align: center; margin: 0 5px;} 
+nav .floatMenu li:hover { background: #f6e25d; color: #444; font-weight: 600;} 
 nav .gotop { width: 60px; position:fixed; right: 80px; bottom: 50px; z-index: 999; font-size: 20px; background: #eee; border-radius: 5px; text-align: center; } 
 nav .gotop:hover { background: #f6e25d; } 
 
@@ -38,23 +37,24 @@ em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
 .pla_con,
 .info_con{width: 615px; height: 200px; justify-content: center; margin: 70px auto 0;;}
 .pla_txt,
-.info_txt{margin: 0 10%;}
+.info_txt{margin: 0 10%; height: 100px;}
 .pla_txt h3,
 .info_txt h3{font-size: 26px;}
 .pla_txt i,
 .info_txt i{font-style: normal; display: block; font-size: 18px;}
-.pla_txt b,
-.info_txt em{display: flex; font-size: 18px; font-style: normal;}
+.pla_txt em,
+.info_txt em{display: flex;  font-size: 18px; font-style: normal; }
 
 .pla_buttons,
-.info_buttons{margin: 0 auto; text-align: center;}
-.pla_buttons a button,
-.info_buttons a button{width: 120px; height: 50px;  margin:50px 5px 0 0; font-size: 18px;  color: #444; font-weight: 600; background: #eee; }
-.pla_buttons a button:hover,  
+.info_buttons{margin: 0 auto; text-align: center; display: flex; float:right ;}
+.pla_buttons .button,
+.info_buttons a button{width: 120px; height: 50px;margin:50px 5px 0 0; font-size: 18px;  color: #444; font-weight: 600; background: #eee; }
+.pla_buttons .button:hover,
 .info_buttons a button:hover{background: #f6e25d; }
 
-.hide_button
-
+/* .pla_buttons{margin:50px 5px 0 0;} */
+.pla_buttons .pla_click #hide_buttons{display: none; height: 0;margin: 0;}
+.pla_buttons .pla_click #hide_Buttons .button{margin: 0; display:block ;}
 
 /* --------------------- */
 /* contents section style */

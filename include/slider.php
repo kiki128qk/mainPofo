@@ -7,23 +7,23 @@
         <ul class="moreImg" id="slider">
             <li>
             <a href="#">
-                <img src="/mainPofo/img/img_01.jpg" alt=""></a>
+                <img src="/mainpofo/img/img_01.jpg" alt=""></a>
             </li>
             <li>
             <a href="#">
-                <img src="/mainPofo/img/img_01.jpg" alt=""></a>
+                <img src="/mainpofo/img/img_01.jpg" alt=""></a>
             </li>
             <li>
             <a href="#">
-                <img src="/mainPofo/img/img_01.jpg" alt=""></a>
+                <img src="/mainpofo/img/img_01.jpg" alt=""></a>
             </li>
             <li>
             <a href="#">
-                <img src="/mainPofo/img/img_01.jpg" alt=""></a>
+                <img src="/mainpofo/img/img_01.jpg" alt=""></a>
             </li>
             <li>
             <a href="#">
-                <img src="/mainPofo/img/img_01.jpg" alt=""></a>
+                <img src="/mainpofo/img/img_01.jpg" alt=""></a>
             </li>
         </ul>
 
