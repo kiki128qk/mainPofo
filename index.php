@@ -22,188 +22,46 @@
 
   <div class="wrap">
     <header>
-
       <div class="headerBoxs">
         <?php
           include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/header.php';
         ?>
       </div>
     </header>
-    <section class="main_Pla" id="content">
-      <div class="mian_info">
-        <div class="info_con">
-          <div class="info_txt">
-            <h3>Pantone</h3>
-            <i>올해의 인재상을 팬톤 2021년 컬러에 투영한 컨셉 제작 탑다운 형식 페이지
-            </i>
-            <em>Use Language: <p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em>
-          </div>
-          <div class="info_buttons">
-            <a href="#"><button type="button">자세히 보기</button></a>
-            <a href="#"><button type="button">Github</button></a>
-          </div>
-        </div>
-      </div>
-      <div class="plann">
-        <div class="pla_con" >
-          <div class="pla_txt">
-            <h3>UX/UI 기획</h3>
-            <i>Nemesis 가상의 사업체의 사이트 UX/UI 기획 PROJECT</i>
-            <b>- 분석, 설계, 구현으로 구성된 기획서</b>
-            <em> Use Language: <p>php</p> , <p>css</p> , <p>js</p> , <p>jquery</p> , <p>mysql</p><br></em><br>
-          </div>
-
-          <?php
-          include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/include.php';
-        ?>
-        </div>
-      </div>
-    </section>
-    <section class="contents">
-      <div class="content frestCon">
-        <p class="designBoxL"></p>
-        <p class="designBoxR"></p>
-        <div class="imgBox">
-          <div class="imgCon">
-            <div class="imgpart" data-aos="zoom-in">
-              <div class="imgtitle">
-                <h3 class="title">New Make</h3>
-                <span></span>
-              </div>
-              <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
-              </div>
-              <img class="display" src="/mainpofo/img/display.png" alt="">
-            </div>
-          </div>
-        </div>
-
-        <div class="txtBox">
-          <div class="txtcon" data-aos="fade-right">
-            <h3>Title: horizons </h3>
-              <em> Use Language: <p>php</p> , <p>css</p> , <p>js</p> , <p>jquery</p> , <p>mysql</p><br></em><br>
-              <i> 프론트 앤드 개발 부터 서버 사이트 통합한 포괄적 기능의 사이트<br>
-              데이터 입력 및 출력, 검색 전반적인 백앤드 기능 구현<br>
-              어드민 기능으로 입력된 데이터의 검색, 수정 등 전반적인 관리</i>
-
-              
-          </div>
-          <?php
-          include $_SERVER['DOCUMENT_ROOT'].'/mainpofo/include/include.php';
-        ?>
-        </div>
-      </div>
-      <div class="content secondCon">
-        <p class="designBoxL"></p>
-        <div class="imgBox">
-        <div class="imgCon">
-            <div class="imgpart" data-aos="zoom-in">
-              <div class="imgtitle">
-                <h3 class="title">New Make</h3>
-                <span></span>
-              </div>
-              <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/movi.png" alt="">
-              </div>
-              <img class="display" src="/mainpofo/img/display.png" alt="">
-            </div>
-          </div>
-        </div>
-
-        <div class="txtBox">
-          <div class="txtcon" data-aos="fade-right">
-            <em>Title: . 인생을 관현악이며,<br>
-              Use Language:오아이스도 위하여 <br>
-              아름답고 미인을 동력은 있으며, 원대하고, 청춘의 청춘이 그들은 동산에는 것이다 물방아 눈이 부패뿐이다. 아름다우냐?</em>
-          </div>
-            <div class="txtBoxButton">
-                <a href="#"> <button Type="button">자세히 보기</button></a>
-                <a href="#"><button Type="button">Github</button></a>
-            </div>
-        </div>
-      </div>
-
-      <div class="content thirdCon">
-        <p class="designBoxL"></p>
-        <p class="designBoxR "></p>
-        <div class="imgBox">
-          <div class="imgCon">
-            <div class="imgpart" data-aos="zoom-in">
-              <div class="imgtitle">
-                <h3 class="title">New Make</h3>
-                <span></span>
-              </div>
-            
-              <div class="veiwpoint">
-                <img class="mainImg" src="/mainpofo/img/myschedule.png" alt="">
-              </div>
-              <img class="display" src="/mainpofo/img/display.png" alt="">
-            </div>
-          </div>
-        </div>
-
-        <div class="txtBox">
-          <div class="txtcon" data-aos="fade-right">
-            <h3>Title: my schedule</h3>
-            <em>Use Language:<p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em>
-          </div>
-          <div class="txtBoxButton">
-            <a href="http://kiki128qk.dothome.co.kr/myschedule/"> <button Type="button">자세히 보기</button></a>
-            <a href="#"><button Type="button">Github</button></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="moreview">
-      <div class="moreBoxs">
-        <div class="thinBoxG"></div>
-        <div class="moreTxtBox">
-          <b>More</b><br>
-          <em>view</em>
-          <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
-        </div>
-        <div class="slider-box">
-          <ul class="moreImg" id="more-img">
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-            <li><img src="/mainpofo/img/img_01.jpg"></li>
-          </ul>
-        </div>
-        <div class="thinBoxY"></div>
-      </div>
-      <span class="moreborder"></span>
-    </section>
-    <section class="ProfileBox"  id="ABOUT">
-      <h3>ABOUT ME</h3>
+    <section class="ProfileBox"  id="About">
+      <h2>ABOUT ME</h2>
       <div class="Profile">
         <div class="propic">
           <div class="picto">
             <div class="hand">
               <img src="/mainpofo/img/hand.svg" alt="">
             </div>
-            <b>이게 뭐람</b>
+            <b>협동</b>
           </div>
+          <i class="fas fa-plus plus"></i>
           <div class="picto">
             <div class="hand">
               <img src="/mainpofo/img/Communication.svg" alt="">
             </div>
-            <b>이게 뭐람</b>
+            <b>커뮤니케이션</b>
           </div>
+          <i class="fas fa-plus plus"></i>
           <div class="picto">
             <div class="hand">
-              <img src="/mainpofo/img/hand.svg" alt="">
+              <img src="/mainpofo/img/Balance.svg" alt="">
             </div>
-            <b>이게 뭐람</b>
+            <b>균형</b>
           </div>
+          <i class="fas fa-equals equals"></i>
         </div>
+       
+        <div class="mugshot">
+        <img src="/mainpofo/img/mugshot.jpg" alt="">
       </div>
+      </div>
+      
       <div class="ProfileTit">
-        <em>내가 만든 작은 좋은 영향력이 누구에게 위로가 되기를 바라면서</em>
+        <em>"내가 만든 작은 좋은 영향력이 누구에게 위로가 되기를 바라면서"</em>
       </div>
       <!-- <div class="Promore"> -->
       <div class="PromoreCon">
@@ -252,6 +110,17 @@
                   </div>
                 </div>
                 <div class="ect">
+                <div class="desgin">
+                    <div class="skillIcon">
+                      <img src="/mainpofo/img/xls.svg" alt="">
+                    </div>
+                    <div class="skFigure">
+                      <div class="skillBar">
+                        <span class="barIn xlsbar"></span>
+                      </div>
+                      <p>70 %</p>
+                    </div>
+                  </div>
                   <div class="desgin">
                     <div class="skillIcon">
                       <img src="/mainpofo/img/ph.svg" alt="">
@@ -272,18 +141,6 @@
                         <span class="barIn libar"></span>
                       </div>
                       <p>80 %</p>
-                    </div>
-
-                  </div>
-                  <div class="desgin">
-                    <div class="skillIcon">
-                      <img src="/mainpofo/img/xls.svg" alt="">
-                    </div>
-                    <div class="skFigure">
-                      <div class="skillBar">
-                        <span class="barIn xlsbar"></span>
-                      </div>
-                      <p>70 %</p>
                     </div>
                   </div>
                 </div>
@@ -306,7 +163,211 @@
           </div>
         </div>
         <!-- </div> -->
+    </section>  
+    <section class="contents" id="content">
+      <h2>content</h2>
+      <div class="frest_con">
+        <div class="info_con">
+          <div class="info_txt">
+            <h3>Pantone</h3>
+            <em>Use Language: <p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p></em><br> 
+              <i>올해의 인재상을 팬톤 2021년 컬러에 투영한 컨셉으로 제작 페이지</i>
+          </div>
+          <div class="info_buttons ">
+             <a href="javascript:void(window.open('주소', '_blank'))"> <button type="button"class="button">자세히 보기</button></a>
+             <a href="javascript:void(window.open('https://github.com/kiki128qk/mainPofo', '_blank'))"> <button type="button" class="button">Github</button></a>
+          </div>
+        </div> 
+        <div class="pla_con " >
+          <div class="pla_txt">
+            <h3>UX/UI 기획</h3>
+            <em> Use Language: <p>php</p> , <p>css</p> , <p>js</p> , <p>jquery</p> , <p>mysql</p><br></em><br>
+            <i>Nemesis 가상의 사업체의 사이트 UX/UI 기획 PROJECT</i>
+            <b>- 분석, 설계, 구현으로 구성된 기획서</b>
+            
+          </div>
+
+          <div class="pla_buttons more_button">
+            <div class="pla_click" id="toggleBox01">
+              <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
+              
+              <div id="hideButtons" class="hide_buttons">
+                <a href="#">
+                  <button type="button" class="button hide_button">기획서</button>
+                </a>
+                <a href="#">
+                  <button type="button" class="button hide_button">페이지 가기</button>
+                </a>
+              </div>
+
+            </div>
+            <a href="#"><button type="button" class="button">Github</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="content second_con" >
+        <p class="designBoxL"></p>
+        <p class="designBoxR"></p>
+        <div class="imgBox">
+          <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">New Make</h3>
+                <span></span>
+              </div>
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/horizons.png" alt="">
+              </div>
+              <img class="display" src="/mainpofo/img/display.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="txtBox">
+          <div class="txtcon" data-aos="fade-right">
+            <h3>Title: horizons </h3>
+              <em> Use Language:<p>php</p>,<p>css</p>,<p>js</p> ,<p>jquery</p>,<p>mysql</p><br></em><br>
+              <i> 프론트 앤드 개발 부터 서버 사이트 통합한 포괄적 기능의 사이트<br>
+              데이터 입력 및 출력, 검색 전반적인 백앤드 기능 구현<br>
+              어드민 기능으로 입력된 데이터의 검색, 수정 등 전반적인 관리</i>
+          </div>
+          <div class="pla_buttons">
+            <div class="pla_click" id="toggleBox02">
+              <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
+              
+              <div id="hideButtons" class="hide_buttons">
+                <a href="#">
+                  <button type="button" class="button hide_button">기획서</button>
+                </a>
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/gold/', ''))">
+                  <button type="button" class="button hide_button">페이지 가기</button>
+                </a>
+              </div>
+
+            </div>
+            <a href="javascript:void(window.open('https://github.com/kiki128qk/gold', '_blank'))">
+              <button type="button" class="button">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="content third_con">
+        <p class="designBoxL"></p>
+        <div class="imgBox">
+        <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">New Make</h3>
+                <span></span>
+              </div>
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/movi.png" alt="">
+              </div>
+              <img class="display" src="/mainpofo/img/display.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="txtBox">
+          <div class="txtcon" data-aos="fade-right">
+            <h3>Title: The Movie</h3>
+            <em>Use Language:<p>php</p>,<p>css</p>,<p>js</p>,<p>jquery</p><br></em>
+            <i>애플리케이션 프로그래밍 인터페이스(AIP)을 활용해<br>
+              외부에서 받은 데이터를 활용하여<br> 영화 검색,최신영화, 장르별 영화 정보 확인 가능
+            </i>
+          </div>
+          <div class="pla_buttons">
+            <div class="pla_click" id="toggleBox03">
+              <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
+              
+              <div id="hideButtons" class="hide_buttons">
+                <a href="#">
+                  <button type="button" class="button hide_button">기획서</button>
+                </a>
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/movie_api/', '_blank'))">
+                  <button type="button" class="button hide_button">페이지 가기</button>
+                </a>
+              </div>
+
+            </div>
+            <a href="javascript:void(window.open('https://github.com/kiki128qk/movie_api', '_blank'))">
+              <button type="button" class="button">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="content fourth_con">
+        <p class="designBoxL"></p>
+        <p class="designBoxR "></p>
+        <div class="imgBox">
+          <div class="imgCon">
+            <div class="imgpart" data-aos="zoom-in">
+              <div class="imgtitle">
+                <h3 class="title">New Make</h3>
+                <span></span>
+              </div>
+            
+              <div class="veiwpoint">
+                <img class="mainImg" src="/mainpofo/img/myschedule.png" alt="">
+              </div>
+              <img class="display" src="/mainpofo/img/display.png" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="txtBox">
+          <div class="txtcon" data-aos="fade-right">
+            <h3>Title: my schedule</h3>
+            <em>Use Language:<p>html</p>,<p>css</p>,<p>js</p>,<p>jquery</p>,<p>mysql</p></em>
+            <i>mysql과 파이차트,grid를 활용하여 PORJUCT의 달성율 확인을 위한 페이지<br>각 카테고리별 완료 항목을 기록하여 자세한 스케줄 관리를 할수 있는 기능을 활용 할수 있음 <br>사용권한을 주기 위해 인증코드 입력후 이용가능</i>
+          </div>
+          <div class="pla_buttons">
+            <div class="pla_click" id="toggleBox04">
+              <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
+              
+              <div id="hideButtons" class="hide_buttons">
+                <a href="#">
+                  <button type="button" class="button hide_button">기획서</button>
+                </a>
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/myschedule/', '_blank'))">
+                  <button type="button" class="button hide_button">페이지 가기</button>
+                </a>
+              </div>
+
+            </div>
+            <a href="javascript:void(window.open('https://github.com/kiki128qk/my-schedule', '_blank'))">
+              <button type="button" class="button">Github</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
+    <section class="moreview">
+      <div class="moreBoxs">
+        <!-- <div class="thinBoxG"></div> -->
+        <div class="moreTxtBox">
+          <b>More</b><br>
+          <em>view</em>
+          <i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+        </div>
+        <div class="slider-box">
+          <ul class="moreImg" id="more-img">
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+            <li><img src="/mainpofo/img/img_01.jpg"></li>
+          </ul>
+        </div>
+        <!-- <div class="thinBoxY"></div> -->
+      </div>
+      <span class="moreborder"></span>
+    </section>
+    
     <footer  id="contact">
       <div class="infobox" >
         <p>Design for Seo Hyejeong</p>
@@ -321,7 +382,8 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
   <script src="/mainpofo/js/slider.js"></script>
-  <script src="/mainpofo/js/tab_show.js"></script>
+  <script src="/mainpofo/js/tab.js"></script>
+  <script src="/mainpofo/js/show_hide.js"></script>
   <script src="/mainpofo/js/scrollnav.js"></script> 
 
   <script>

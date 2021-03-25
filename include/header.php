@@ -28,8 +28,8 @@
 </div>
 <nav>
     <ul class="floatMenu">
+        <li><a href="#About">About Me</a></li>
         <li><a href="#content">Content</a></li>
-        <li><a href="#ABOUT">About Me</a></li>
         <li><a href="#contact">Contact</a></li>
 
     </ul>
