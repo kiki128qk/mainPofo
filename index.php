@@ -15,6 +15,7 @@
   <!-- style css link -->
 
   <link rel="stylesheet" href="/mainpofo/css/style.css" />
+  <link rel="stylesheet" href="/mainpofo/css/modia.css" />
 
 </head>
 
@@ -174,7 +175,7 @@
               <i>올해의 인재상을 팬톤 2021년 컬러에 투영한 컨셉으로 제작 페이지</i>
           </div>
           <div class="info_buttons ">
-             <a href="javascript:void(window.open('주소', '_blank'))"> <button type="button"class="button">자세히 보기</button></a>
+             <a href="javascript:void(window.open('https://github.com/kiki128qk/mainpofo/img/mainpofo.pdf', '_blank'))"> <button type="button"class="button">자세히 보기</button></a>
              <a href="javascript:void(window.open('https://github.com/kiki128qk/mainPofo', '_blank'))"> <button type="button" class="button">Github</button></a>
           </div>
         </div> 
@@ -192,7 +193,7 @@
               <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
               
               <div id="hideButtons" class="hide_buttons">
-                <a href="#">
+                <a href="javascript:void(window.open('https://github.com/kiki128qk/mainpofo/img/ux_ui.pptx.pdf', '_blank'))">
                   <button type="button" class="button hide_button">기획서</button>
                 </a>
                 <a href="#">
@@ -236,7 +237,7 @@
               <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
               
               <div id="hideButtons" class="hide_buttons">
-                <a href="#">
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/mainpofo/img/horizons.pdf', ''))">
                   <button type="button" class="button hide_button">기획서</button>
                 </a>
                 <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/gold/', ''))">
@@ -281,7 +282,7 @@
               <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
               
               <div id="hideButtons" class="hide_buttons">
-                <a href="#">
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/mainpofo/img/the_movie.pdf', '_blank'))">
                   <button type="button" class="button hide_button">기획서</button>
                 </a>
                 <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/movie_api/', '_blank'))">
@@ -327,9 +328,9 @@
               <button type="button" class="button cli_button" id="cliButton">자세히 보기</button>
               
               <div id="hideButtons" class="hide_buttons">
-                <a href="#">
+                <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/mainpofo/img/my-schedule.pdf', '_blank'))">
                   <button type="button" class="button hide_button">기획서</button>
-                </a>
+                </a>mainpofo/img/my-schedule.pdf
                 <a href="javascript:void(window.open('http://kiki128qk.dothome.co.kr/myschedule/', '_blank'))">
                   <button type="button" class="button hide_button">페이지 가기</button>
                 </a>
