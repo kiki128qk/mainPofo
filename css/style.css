@@ -35,7 +35,7 @@ nav .gotop:hover { background: #f6e25d; }
 /* frest content style */
 .contents .frest_con{width: 60%; display: flex; margin: 0 auto 100px;}
 .info_txt b p{background: #f6e25d; padding:0 5px; border-radius: 10px; margin:0 5px ;}
-em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
+em>b{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
 
 .mian_info,
 .plann{width: 50%;}
@@ -54,11 +54,10 @@ em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
 .pla_buttons,
 .info_buttons{ text-align: center; display: flex; }
 .pla_buttons .button,
-.info_buttons .button{width: 120px; height: 50px;margin:0 5px 0 0; font-size: 18px;  color: #444; font-weight: 600; background: #eee; }
+.info_buttons .button{width: 120px; height: 50px;margin:0 5px 0 0; font-size: 18px;  color: #444; font-weight: 600; background: #eee; display: block;
+  line-height: 2.5;}
 .pla_buttons .button:hover,
 .info_buttons a button:hover{background: #f6e25d; }
-
-/* .pla_buttons{margin:50px 5px 0 0;} */
 .pla_buttons .pla_click .hide_buttons{display: none; width: 100px; height: 0;margin: 0; }
 .pla_buttons .pla_click .hide_Buttons .hide_button{margin: 0; display:block ;}
 
@@ -119,7 +118,7 @@ em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
 .moreBoxs .moreTxtBox { width: 20%; height: 180px; display: inline-block; text-align: end; padding: 90px 20px 0 0; background: #f6e25d5c; } 
 .moreBoxs .moreTxtBox b { font-style: normal; font-size: 80px; font-family: "Do Hyeon", sans-serif; line-height: 60px; } 
 .moreBoxs .moreTxtBox em { font-style: normal; font-size: 30px; line-height: 15px; } 
-.moreBoxs .moreTxtBox i { font-size: 20px; animation: 3s linear 1s infinite running fa-angle; opacity: 0; } 
+.moreBoxs .moreTxtBox i { font-size: 20px; animation: 3s linear 1s infinite running; opacity: 0; } 
 .moreTxtBox i:nth-of-type(1) { animation-delay: 0s; } 
 .moreTxtBox i:nth-of-type(2) { animation-delay: 0.15s; } 
 .moreTxtBox i:nth-of-type(3) { animation-delay: 0.3s; } 
@@ -130,7 +129,8 @@ em>p{background: #f6e25d; border-radius: 10px; padding: 2px;margin: 2px;}
  }
 
 .moreBoxs .moreImg { _width: 20%; _height: 180px; display: flex; overflow: hidden; } 
-.moreImg img { width: 100%; } 
+.moreImg img { height:35%; } 
+.moreImg img:first-child{ width: 100%; height: auto;} 
 
 .moreview .thinBoxG { width: 31%; height: 40px; background: #999a9c; position: absolute; top: 50px; right: 90%; line-height: 3px; } 
 .moreview .thinBoxY { width: 31%; height: 40px; background: #f6e25d; position: absolute; left: 90%; bottom: 50px; } 
